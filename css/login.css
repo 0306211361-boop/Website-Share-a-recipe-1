@@ -1,0 +1,175 @@
+body
+{
+    max-width: 40%;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+
+}
+.header
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+ h1
+{
+    font-family:  "Delius Unicase";
+    color: #330000;
+    font-size: 30px;
+    line-height: 51px;
+    text-align: center; 
+    margin-top: 50px;
+    width: 200px;
+
+}
+
+.header img
+{
+    width: 160px;
+    height: auto;
+}
+
+.content h2
+{
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.dang-nhap
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #FF9933;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 24px;
+    width: 350px;
+    min-width: 320px;
+    height: 380px;
+    left: 107px;
+    top: 247px;
+}
+
+
+.dang-nhap p
+{
+    font-size: 19px;
+}
+.dang-nhap .input-username p
+{
+    margin: 5px;
+}
+.dang-nhap .input-password p
+{
+    margin: 5px;
+}
+.dang-nhap .input
+{
+
+
+width: 272px;
+
+line-height: 40px;
+
+background: #FFFFFF;
+border: 1px solid #FF9933;
+border-radius: 8px;
+padding-left: 30px;
+font-size: 19px;
+
+}
+.input-username .nhap
+{
+    position: relative;
+}
+.nhap .icon-1
+{
+     position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input-password .khau
+{
+    position: relative;
+}
+.khau .icon-2
+{
+     position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dang-nhap  button
+{
+
+margin-left: 60px;
+
+width: 199px;
+height: 58px;
+
+
+background: #FF9933;
+border: 1px solid #FF9933;
+border-radius: 8px;
+
+font-size: 19px;
+
+
+}
+.dang-nhap button:hover
+{
+     opacity: 0.8;
+    color: white;
+    
+}
+.dang-nhap .b-login  a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.duoi
+{
+    display: flex;
+    
+    gap: 80px;
+}
+
+.duoi .dk
+{
+    color: #FF9933;
+    
+}
+.duoi .qmk
+{
+    color: #FF9933;
+
+}
+
+.dang-ky
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer
+{
+    justify-self: center;
+  
+}
+
+.footer img
+{
+      width: 1300px;
+    height: auto;
+}

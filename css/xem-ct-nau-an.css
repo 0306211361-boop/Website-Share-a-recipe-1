@@ -1,0 +1,135 @@
+body
+{
+    width: 90%;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+}
+
+.header
+{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header img
+{
+    
+    width: 60px;
+    height: auto;
+}
+
+
+
+.header .b-right .dang-nhap
+{
+    
+width: 200px;
+height: 50px;
+
+
+background: #FF9933;
+border: 1px solid #FF9933;
+border-radius: 8px;
+color: white;
+font-size: 30px;
+}
+
+.header .b-right .viet-mon-moi
+{
+    width: 290px;
+    height: 50px;
+
+    background: #FF9933;
+    border: 1px solid #FF9933;
+    border-radius: 8px;
+    color: white;
+    font-size: 30px;
+}
+.b-right button:hover
+{
+    opacity: 0.8;
+    color: white;
+}
+
+.header .b-right a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.content 
+{
+    display: flex;
+    gap: 50px;
+}
+.content .icon
+{
+    color: #FF9933;
+}
+.content .left img
+{
+    width: 300px;
+    height: auto;
+}
+
+.content .left h1
+{
+    font-size: 25px;
+    font-weight: 650;
+}
+.content .left p
+{
+    font-size: 20px;
+}
+
+.content .right
+{
+    margin-top: -30px;
+}
+.content .right h1
+{
+    font-size: 40px;
+    font-weight: 650;
+}
+.content .right h2
+{
+    font-weight: normal;
+    font-size: 32px;
+}
+.content .right h3
+{
+    font-size: 32px;
+    font-weight: 590;
+}
+.content .right p
+{
+    font-size: 18px;
+}
+
+.content .right nav ul li
+{
+    list-style: decimal;
+    font-size: 20px;
+}
+
+.img-trangtri
+{
+    display: flex;
+    justify-content: right;
+}
+
+.footer p
+{
+    justify-self: center;
+}
+.footer 
+{
+    justify-self: center;
+}
+.footer img
+{
+    width: 1500px;
+    height: auto;
+}

@@ -1,0 +1,253 @@
+body
+{
+    max-width: 90%;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+    
+}
+.header 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.top-head
+{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.top-head .icon
+{
+    color: #FF9933;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.logo h1
+{
+    font-family:  "Delius Unicase";
+    color: #330000;
+    font-size: 20px;
+    line-height: 51px;
+    text-align: center; 
+    margin-top: 30px;
+    width: 200px;
+}
+.logo img
+{
+    width: 110px;
+    height: auto;
+
+}
+
+.user
+{
+   display: flex;
+    align-items: center;
+}
+.user p
+{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.top-head .b-login    
+{
+     
+    font-size: 30px;
+    color: white;
+    box-sizing: border-box;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 240px;
+    height: 50px;
+
+
+    background: #FF9933;
+    border: 1px solid #FF9933;
+    border-radius: 8px;
+    
+}
+.top-head .b-login:hover
+{
+    opacity: 0.8;
+    color: white;
+}
+.top-head .b-login a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-head 
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.bottom-head input
+{
+    
+    width: 500px;
+    border-radius: 30px;
+    line-height: 40px;
+    border: none;
+    background-color: #E9E9EA;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.bottom-head .search
+{
+    position: relative;
+}
+
+.search .icon-left
+{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search .icon-right
+{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bottom-head button
+{
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+box-sizing: border-box;
+
+justify-content: center;
+align-items: center;
+
+width: 120px;
+height: 40px;
+
+
+background: #FF9933;
+border: 1px solid #FF9933;
+border-radius: 8px;
+}
+.bottom-head button:hover
+{
+    opacity: 0.8;
+    color: white;
+}
+.content
+{
+    padding-top: 30px;
+    max-width: 90%;
+   margin: auto;
+
+}
+.icon
+{
+    color: #FF9933;
+}
+
+.pop
+{
+    display: flex;
+    margin-top: 20px;
+    padding: auto;
+    gap: 15px;
+    
+background: rgba(217, 217, 217, 0.45);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 35px;
+
+}
+.pop img
+{
+    border-radius: 35px;
+    width: 150px;
+    height: auto;
+}
+.pop ul li h2
+{
+    font-size: 30px;
+    font-weight: normal;
+}
+.pop-1 a
+{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-top: 20px;
+    padding: auto;
+    gap: 15px;
+    
+background: rgba(217, 217, 217, 0.45);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 35px;
+
+}
+.pop-1 img
+{
+    border-radius: 35px;
+    width: 150px;
+    height: auto;
+}
+.pop-1 ul li h2
+{
+    font-size: 30px;
+    font-weight: normal;
+}
+.pop-1:hover
+{
+     opacity: 0.5;
+    color: white;
+}
+ul li
+{
+    list-style: none;
+}
+
+.chuyen-ds
+{
+    justify-self: center;
+    position: relative;
+}
+
+.chuyen-ds .sang-trai
+{
+    position: absolute;
+    top: 40%;
+   left: 70px;
+}
+.chuyen-ds .sang-phai
+{
+    position: absolute;
+    top: 40%;
+    right: 80px;
+}
+
+.footer p
+{
+    justify-self: center;
+}
+.footer 
+{
+    justify-self: center;
+}
+.footer img
+{
+    width: 1300px;
+    height: auto;
+}

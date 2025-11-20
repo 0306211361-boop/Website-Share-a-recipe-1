@@ -1,0 +1,186 @@
+body
+{
+    margin: auto;
+    font-family: "Inter", sans-serif;
+}
+
+.header
+{
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.header img
+{
+    width: 100px;
+    height: auto;
+}
+
+.header h1
+{
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.content
+{
+    display: flex;
+    gap: 50px;
+
+}
+
+.content .left
+{
+    width: 300px;
+    height: auto;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 3px solid #FF9933;
+    border-style: outset;
+    border-left-style:none ;
+    border-bottom-style:none ;
+    border-top-right-radius:20px ;
+
+}
+.content .left  a
+{   
+
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    
+}
+
+.content .left a:hover
+{
+    opacity: 0.8;
+    color: #FF9933;
+}
+
+.content .right
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 1200px;
+}
+
+.content .top-right
+{
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.top-right button
+{
+    color: white;
+    font-size: 25px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+    border: none;
+width: 150px;
+height: 60px;
+
+
+background: #FF9933;
+border-radius: 20px;
+
+}
+.top-right button:hover
+{
+    opacity: 0.8;
+    color: white;
+    cursor: pointer;
+}
+
+.top-right .search-bar input
+{   
+    font-size: 20px;
+
+padding: 21px 45px;
+gap: 4px;
+
+width: 620px;
+height: 30px;
+
+
+border: 1px solid #000000;
+border-radius: 28px;
+
+}
+
+.top-right .search-bar
+{
+    position: relative;
+}
+
+.search-bar .icon-menu
+{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.top-right .icon-search
+{
+     position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.bang
+{
+   
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.bang th
+{
+
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.bang td
+{
+    border: 1px solid black;
+    padding: 110px 100px ;
+
+}
+
+.right .chuyen-trang
+{
+    display: flex;
+     justify-content: center;
+    position: relative;
+}
+
+.right .chi-trai
+{
+     position: absolute;
+    top: 38%;
+   left: 370px;
+}
+
+.right .chi-phai
+{
+    position: absolute;
+    top: 36%;
+    right: 370px;
+}

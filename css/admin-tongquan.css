@@ -1,0 +1,74 @@
+body
+{
+    margin: auto;
+    font-family: "Inter", sans-serif;
+}
+
+.header
+{
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.header img
+{
+    width: 100px;
+    height: auto;
+}
+
+.header h1
+{
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.content
+{
+    display: flex;
+    gap: 200px;
+
+}
+.content .left
+{
+    width: 300px;
+    height: auto;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 3px solid #FF9933;
+    border-style: outset;
+    border-left-style:none ;
+    border-bottom-style:none ;
+    border-top-right-radius:20px ;
+
+}
+.content .left  a
+{   
+
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    
+}
+
+.content .left a:hover
+{
+    opacity: 0.8;
+    color: #FF9933;
+}
+
+.content .char
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.content .char2
+{
+    display: flex;
+    justify-content: center;
+}

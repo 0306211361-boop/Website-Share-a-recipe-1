@@ -1,0 +1,274 @@
+body
+{
+    width: 90%;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+}
+
+.header
+{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img
+{
+    width: 100px;
+    height: auto;
+}
+
+.header .right
+{
+    margin-top: 30px;
+        display:flex;
+        justify-self: center;
+        gap: 20px;
+}
+
+.header .right p
+{
+     margin-top: 4px;
+    
+    font-size: 30px;
+}
+
+ .icon
+{
+    color: #FF9933;
+}
+
+.header .right .dang-tai
+{
+    width: 200px;
+    height: 50px;
+
+    background: #FF9933;
+    border: 1px solid #FF9933;
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+}
+.dang-tai:hover
+{
+    opacity: 0.8;
+    color: white;
+}
+
+.content
+{
+    display: flex;
+    gap: 50px;
+}
+
+.up-hinh
+{   
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+cursor: pointer;
+overflow: hidden;
+box-sizing: border-box;
+width: 331px;
+height: 451px;
+
+
+background: rgba(255, 153, 51, 0.35);
+border: 1px solid #FF9933;
+
+}
+
+.ng-lieu .kp
+{
+padding: 5px 16px;
+font-size: 15px;
+width: 120px;
+height: 25px;
+
+
+background: #FFFFFF;
+border: 1px solid #FF9933;
+border-radius: 9999px;
+
+}
+
+.c-left nav ul li 
+{
+    list-style: none;
+}
+
+.ng-lieu nav ul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ng-lieu nav ul li input
+{
+    padding: 5px 16px;
+    font-size: 17px;
+    width: 200px;
+    height: 25px;
+    background: #FFFFFF;
+    border: 1px solid #FF9933;
+    border-radius: 9999px;
+
+}
+
+.ng-lieu .them
+{
+  
+
+    margin-left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    color: white;
+    width: 80px;
+    height: 40px;
+    background: #FF9933;
+ border: 1px solid #FF9933;
+    border-radius: 9999px;
+}
+.them:hover
+{
+    opacity: 0.8;
+    color: white;
+}
+
+.c-right
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.c-right .ten-mon
+{
+    /* Search */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 15px 18px;
+font-size: 30px;
+width: 550px;
+
+
+background: #FFFFFF;
+border: 1px solid #FF9933;
+border-radius: 9999px;
+
+}
+
+.c-right .mo-ta
+{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 15px 18px;
+font-size: 30px;
+width: 550px;
+height: 150px;
+
+background: #FFFFFF;
+border: 1px solid #FF9933;
+border-radius: 20px;
+
+}
+
+.c-right h2
+{
+    margin: 0;
+}
+
+.c-right .icon
+{
+    color: #FF9933;
+}
+
+.c-right .thoi-gian
+{
+    padding: 5px 16px;
+    font-size: 15px;
+    width: 120px;
+    height: 25px;
+
+    background: #FFFFFF;
+    border: 1px solid #FF9933;
+    border-radius: 20px;
+}
+
+
+.c-right nav ul
+{
+    display: flex;
+    list-style: decimal;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.c-right nav ul li  .text
+{
+     padding: 5px 16px;
+    font-size: 15px;
+    width: 420px;
+    height: 25px;
+
+    background: #FFFFFF;
+    border: 1px solid #FF9933;
+    border-radius: 20px;
+}
+
+.c-right nav ul li button
+{
+  
+
+    color: white;
+    width: 45px;
+    height: 40px;
+    background: #FF9933;
+    border: 1px solid #FF9933;
+    border-radius: 20px;
+}
+.c-right nav ul li button:hover
+{
+    opacity: 0.8;
+    color: white;
+}
+
+.c-right nav ul li .upload
+{
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+cursor: pointer;
+overflow: hidden;
+box-sizing: border-box;
+width: 200px;
+height: 150px;
+
+
+background: rgba(255, 153, 51, 0.35);
+border: 1px solid #FF9933;
+
+}
+
+.footer p
+{
+    justify-self: center;
+}
+.footer 
+{
+    justify-self: center;
+}
+.footer img
+{
+    width: 1400px;
+    height: auto;
+}

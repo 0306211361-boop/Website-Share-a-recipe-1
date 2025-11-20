@@ -1,0 +1,249 @@
+
+body
+{
+    width: 90%;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+}
+.icon
+{
+    color: #FF9933;
+}
+.header
+{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img
+{
+    
+    width: 100px;
+    height: auto;
+}
+
+.header .b-right 
+{
+        margin-top: 30px;
+        display:flex;
+        justify-self: center;
+        gap: 20px;
+}
+.header .b-right p
+{
+    margin-top: 4px;
+    
+    font-size: 30px;
+}
+
+.header .b-right .viet-mon-moi
+{
+    width: 290px;
+    height: 50px;
+
+    background: #FF9933;
+    border: 1px solid #FF9933;
+    border-radius: 8px;
+    color: white;
+    font-size: 30px;
+}
+.b-right button:hover
+{
+    opacity: 0.8;
+    color: white;
+}
+
+.b-right a
+{
+        color: white;
+    text-decoration: none;
+}
+
+.content 
+{
+    display: flex;
+    gap: 50px;
+}
+
+.content .left img
+{
+    width: 300px;
+    height: auto;
+}
+
+.content .left h1
+{
+    font-size: 25px;
+    font-weight: 650;
+}
+.content .left p
+{
+    font-size: 20px;
+}
+
+.content .left .chia-se 
+{
+     width: 130px;
+    height: 50px;
+
+    background: white;
+    border: 1px solid #FF9933;
+    border-radius: 50px;
+    color: #FF9933;
+    font-size: 20px;
+    padding-left: 20px;
+
+
+}
+.left .chia-se:hover
+{
+    opacity: 0.6;
+    color: #FF9933;
+}
+.content .chiase
+{
+    position: relative;
+}
+
+.chiase .icon
+{
+position: absolute;
+    left: 15px;
+    top: 49%;
+    transform: translateY(-50%);
+    color: #FF9933;
+}
+
+.content .right
+{
+    margin-top: -30px;
+}
+.content .right h1
+{
+    font-size: 40px;
+    font-weight: 650;
+}
+.content .right h2
+{
+    font-weight: normal;
+    font-size: 32px;
+}
+.content .right h3
+{
+    font-size: 32px;
+    font-weight: 590;
+}
+.content .right p
+{
+    font-size: 18px;
+}
+
+.content .right nav ul li
+{
+    list-style: decimal;
+    font-size: 20px;
+}
+
+.img-trangtri
+{
+    display: flex;
+    justify-content: right;
+}
+
+.binhlan-danhgia 
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.binhluan
+{
+    display: flex;
+}
+.binhluan p
+{
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+.binhluan img
+{
+    width: 200px;
+    height: 50px;
+}
+
+.binhluan-danhgia .viet-bl
+{
+    
+padding-left: 10px;
+width: 1217px;
+min-width: 240px;
+height: 48px;
+font-size: 20px;
+background: #FFFFFF;
+border: 1px solid #FF9933;
+border-radius: 8px;
+
+
+
+}
+
+.bl-ngkhac
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.bl-ngkhac p
+{
+     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.bl-ngkhac img
+{
+    margin-top: 18px;
+    width: 100px;
+    height: 25px;
+}
+
+.nd-bl
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.nd-bl p
+{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.nd-bl .ph
+{
+    font-style: italic;
+    font-size: 15px;
+}
+.nd-bl .icon
+{
+    color: #FF9933;
+}
+
+.footer p
+{
+    justify-self: center;
+}
+.footer 
+{
+    justify-self: center;
+}
+.footer img
+{
+    width: 1400px;
+    height: auto;
+}
